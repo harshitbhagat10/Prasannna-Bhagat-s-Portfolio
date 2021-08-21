@@ -7,16 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
 </head>
-<!-- <style>
-    body{
-        color:red
-    }
-</style> -->
-
+<link href="styles.css" rel="stylesheet"/>
 <body>
 
-    <h1 style="color:royalblue">Prasanna's Component Library</h1>
-    <p>I am making a library which will make all of my projects look good and consistent.</p>
+    <h1 id="main-header">Prasanna's Component Library</h1>
+    <p class="para">I am making a library which will make all of my projects look good and consistent.</p>
 
     <hr>
 
@@ -26,22 +21,24 @@
     <h2>This is the second biggest heading.</h2>
     <p>This is for normal texts.</p>
     <small>This is for the small texts.</small>
+    <p>This is to show how to make a word <strong>bold</strong>.</p>
 
     <hr>
 
     <h2>@containers</h2>
 
     <h3>Fluid Container</h3>
-    <div>This is a fluid container which will go till the end of the page.</div>
+    <div class="fluid-container">This is a fluid container which will go till the end of the page.</div>
     <h3>Centred Container</h3>
-    <div>This is a centred container which will go till a given width and center content.</div>
+    <div class="container">This is a centred container which will go till a given width and center content.</div>
+    
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a href="/" class="links link-primary">Primary Link</a>
+    <a href="/" class="links link-secondary">Secondary Link</a>
 
     <hr>
 
