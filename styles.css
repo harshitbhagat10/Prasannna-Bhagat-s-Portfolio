@@ -127,19 +127,19 @@ hr {
 
 /* FOOTER */
 
-.footer{
+.footer {
     padding: 2rem;
     background-color: var(--primary-color);
     text-align: center;
     color: white;
     border-bottom-right-radius: 1rem;
-    border-top-left-radius:1rem ;
+    border-top-left-radius: 1rem;
 }
 
-.footer .links{
+.footer .links {
     color: white;
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
