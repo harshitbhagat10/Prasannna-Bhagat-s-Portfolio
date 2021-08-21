@@ -28,9 +28,9 @@
     <h2>@containers</h2>
 
     <h3>Fluid Container</h3>
-    <div class="fluid-container">This is a fluid container which will go till the end of the page.</div>
+    <div class="container-fluid">This is a fluid container which will go till the end of the page.</div>
     <h3>Centred Container</h3>
-    <div class="container">This is a centred container which will go till a given width and center content.</div>
+    <div class="container-centred">This is a centred container which will go till a given width and center content.</div>
     
 
     <hr>
@@ -45,17 +45,17 @@
     <h2>@lists</h2>
 
     <h3>Unordered List</h3>
-    <ul>
+    <ul class="lists-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
     </ul>
 
     <h3>Unordered Inline List</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
+    <ul class="lists-non-bullet">
+        <li class="lists-item-inline">Item One</li>
+        <li class="lists-item-inline">Item Two</li>
+        <li class="lists-item-inline">Item Three</li>
     </ul>
 
     <h3>Ordered List</h3>
@@ -66,7 +66,7 @@
     </ol>
 
     <h3>Reverse Ordered List</h3>
-    <ol>
+    <ol reversed>
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -76,18 +76,18 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>Prasanna Bhagat</div>
+    <nav class="navigation container-centred">
+        <div class="nav-brand"><strong>Prasanna Bhagat</strong></div>
 
-        <ul>
-            <li>
-                <a href="/">Home</a>
+        <ul class="lists-non-bullet">
+            <li class="lists-item-inline">
+                <a class="links link-active" href="/">HOME</a>
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class="lists-item-inline">
+                <a class="links" href="/">PRODUCTS</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="lists-item-inline">
+                <a class="links" href="/">ABOUT</a>
             </li>
         </ul>
     </nav>
