@@ -1,8 +1,10 @@
 /* TYPOGRAPHY */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
 :root{
     --primary-color:#6366F1;
+    --dark-gray: #4B5563;
+    --off-white:#EEF2FF;
 }
 
 
@@ -85,3 +87,36 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
+
+
+
+/* HEADER */
+.header{
+    padding: 2rem;
+}
+.header .header-img{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.header .header-title{
+    color: var(--dark-gray);
+    text-align: center;
+    padding-top:1rem ;
+}
+
+
+/* SECTION */
+.section{
+    padding:1rem;
+}
+
+.section h1{
+    text-align:center;
+}
+
+.section.ow{
+    background-color: var(--off-white);
+}
+
