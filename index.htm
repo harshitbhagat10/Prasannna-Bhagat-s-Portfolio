@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
 </head>
-<link href="styles.css" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet" />
+
 <body>
 
     <h1 id="main-header">Prasanna's Component Library</h1>
@@ -30,8 +31,9 @@
     <h3>Fluid Container</h3>
     <div class="container-fluid">This is a fluid container which will go till the end of the page.</div>
     <h3>Centred Container</h3>
-    <div class="container-centred">This is a centred container which will go till a given width and center content.</div>
-    
+    <div class="container-centred">This is a centred container which will go till a given width and center content.
+    </div>
+
 
     <hr>
 
@@ -98,10 +100,10 @@
 
     <header class="header">
 
-        <img class="header-img"
-            src="images/headerimage.svg">
+        <img class="header-img" src="images/headerimage.svg">
 
-        <h1 class="header-title">PRASANNA BHAGAT</h1>
+        <h1 class="header-title">PRASANNA <sapn style= "color: var(--primary-color)">BHAGAT</sapn>
+        </h1>
     </header>
 
     <hr>
@@ -112,32 +114,43 @@
         <div class="container-fluid 
         container-centred">
             <h1 class="section-title">white section</h1>
-            <p>Last month we removed a bunch of content from MDN. MDN is 16 years old (and yes it can drink in some countries), all that time ago it was a great place for all of Mozilla to document all of their things. As MDN evolved and the web reference became our core content, other areas became less relevant to the overall site. We have ~11k active pages on MDN, so keeping them up to date is a big task and we feel our focus should be there.The post Spring cleaning MDN: Part 2 appeared first on Mozilla Hacks - the Web developer blog.</p>
+            <p>Last month we removed a bunch of content from MDN. MDN is 16 years old (and yes it can drink in some
+                countries), all that time ago it was a great place for all of Mozilla to document all of their things.
+                As MDN evolved and the web reference became our core content, other areas became less relevant to the
+                overall site. We have ~11k active pages on MDN, so keeping them up to date is a big task and we feel our
+                focus should be there.The post Spring cleaning MDN: Part 2 appeared first on Mozilla Hacks - the Web
+                developer blog.</p>
         </div>
     </section>
 
     <section class="section ow">
         <div class="container-centred container-fluid">
             <h1 class="section-title">offwhite section</h1>
-            <p>Last month we removed a bunch of content from MDN. MDN is 16 years old (and yes it can drink in some countries), all that time ago it was a great place for all of Mozilla to document all of their things. As MDN evolved and the web reference became our core content, other areas became less relevant to the overall site. We have ~11k active pages on MDN, so keeping them up to date is a big task and we feel our focus should be there.The post Spring cleaning MDN: Part 2 appeared first on Mozilla Hacks - the Web developer blog.</p>
+            <p>Last month we removed a bunch of content from MDN. MDN is 16 years old (and yes it can drink in some
+                countries), all that time ago it was a great place for all of Mozilla to document all of their things.
+                As MDN evolved and the web reference became our core content, other areas became less relevant to the
+                overall site. We have ~11k active pages on MDN, so keeping them up to date is a big task and we feel our
+                focus should be there.The post Spring cleaning MDN: Part 2 appeared first on Mozilla Hacks - the Web
+                developer blog.</p>
         </div>
-        
+
     </section>
 
     <hr>
 
     <h2>@footer</h2>
-    <footer>
-        <p>Some text under footer.</p>
-        <ul>
-            <li>
-                <a href="/">Social1</a>
+
+    <footer class="footer container-fluid">
+        <p class="footer-header">Some text under footer.</p>
+        <ul class="social-links lists-non-bullet">
+            <li class="lists-item-inline">
+                <a class="links" href="/">Facebook</a>
             </li>
-            <li>
-                <a href="/">Social2</a>
+            <li class="lists-item-inline">
+                <a class="links" href="/">Linkedin</a>
             </li>
-            <li>
-                <a href="/">Social3</a>
+            <li class="lists-item-inline">
+                <a class="links" href="/">Twitter</a>
             </li>
         </ul>
     </footer>
