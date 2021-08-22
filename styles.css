@@ -84,7 +84,7 @@ small{
 }
 
 .navigation .lists-non-bullet {
-    padding: 0.1rem;
+    padding: 1rem 0rem;
     text-align: right;
     letter-spacing: 2px;
 }
