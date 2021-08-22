@@ -28,6 +28,7 @@ small{
 }
 
 .container-centred {
+    padding-bottom: 2rem;
     max-width: 600px;
     margin: auto;
 }
@@ -55,6 +56,9 @@ small{
 
 
 /* LISTS */
+.lists-reversed{
+
+}
 
 .lists-non-bullet {
     list-style: none;
