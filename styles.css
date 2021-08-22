@@ -29,7 +29,7 @@ small{
 
 .container-centred {
     padding-bottom: 2rem;
-    max-width: 600px;
+    max-width: auto;
     margin: auto;
 }
 
