@@ -88,6 +88,9 @@ small{
     text-align: right;
     letter-spacing: 2px;
 }
+.navigation .lists-item-inline{
+    padding: 0rem 0rem;
+}
 
 .nav-brand {
     font-size: 1.5rem;
