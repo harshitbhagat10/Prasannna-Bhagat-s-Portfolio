@@ -129,10 +129,6 @@ small{
     padding: 1rem;
 }
 
-.section h1 {
-    text-align: center;
-}
-
 .section.ow {
     background-color: var(--off-white);
 }
