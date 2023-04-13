@@ -12,6 +12,9 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+.nav-brand{
+    cursor: pointer;
+}
 
 hr {
     margin: 2rem 0rem;
@@ -19,6 +22,10 @@ hr {
 
 small{
     font-size: 14px;
+}
+
+.header-img{
+    border: 5px solid var(--primary-color);
 }
 
 /* CONTAINER */
@@ -37,13 +44,21 @@ small{
 .links {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
+.links:hover{
+   color: black;
+}
+
 
 .link-primary {
     letter-spacing: 2px;
     background-color: var(--primary-color);
     color: white;
     border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 .link-secondary {
@@ -51,7 +66,20 @@ small{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 0.1rem solid var(--primary-color);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 
+}
+.link-primary:hover{
+    background-color:var(--off-white);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.link-secondary:hover{
+    background-color:var(--primary-color);
+    color: var(--off-white);
+    font-weight: 500;
 }
 
 
@@ -80,7 +108,14 @@ small{
 }
 
 .navigation .links {
-    color: white;
+    color: var(--off-white);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.navigation .links:hover{
+    background-color: var(--off-white);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
 }
 
 .navigation .lists-non-bullet {
@@ -91,6 +126,7 @@ small{
 }
 .navigation .lists-item-inline{
     padding: 0rem 0rem;
+    margin: 1rem;
 }
 
 .nav-brand {
@@ -100,7 +136,8 @@ small{
 }
 
 .navigation .link-active {
-    font-weight:900;
+    border: 2px solid var(--off-white);
+    border-radius: 0.5rem;
 }
 
 
@@ -137,7 +174,7 @@ small{
 /* FOOTER */
 
 .footer {
-    padding: 2rem;
+    padding:10px 0 20px 0;
     background-color: var(--primary-color);
     text-align: center;
     color: white;
@@ -145,14 +182,28 @@ small{
 }
 
 .footer .links {
+    font-size: 20px;
+    margin: 8rem;
     color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
+.footer .links:hover {
+    background-color: var(--off-white);
+    color: #6366F1;
+    border-radius: 0.5rem;
+}
+
 
 .footer ul {
     padding-inline-start: 0px;
 }
 
 .footer-header{
-    font-size: larger;
+    font-size: 28px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
+
+
+
