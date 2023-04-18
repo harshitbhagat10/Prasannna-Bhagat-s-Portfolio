@@ -131,10 +131,13 @@ small{
     margin: 1rem;
 }
 
-.nav-brand {
+.nav-brand a{
     font-size: 1.5rem;
     padding: 0.5rem 0.5rem;
     text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--off-white);
 }
 
 .navigation .link-active {
