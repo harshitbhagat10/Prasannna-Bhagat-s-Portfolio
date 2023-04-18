@@ -72,15 +72,15 @@ small{
 
 }
 .link-primary:hover{
-    background-color:var(--off-white);
+    background-color:white;
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 .link-secondary:hover{
     background-color:var(--primary-color);
     color: var(--off-white);
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 
@@ -112,6 +112,7 @@ small{
     color: var(--off-white);
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    border-radius: 0.5rem;
 }
 .navigation .links:hover{
     background-color: var(--off-white);
@@ -188,6 +189,7 @@ small{
     color: white;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    border-radius: 0.5rem;
 }
 .footer .links:hover {
     background-color: var(--off-white);
